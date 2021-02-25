@@ -56,11 +56,10 @@ The purpose of the assignment is to familiarize you with the automatic build, co
        ii. Next to memory click customize and reduce 1G
        iii. Mark checkmark "Deploy a container image to this VM" and enter image 'yourdockerhubid/webserver'
        iv. Mark checkmark "Allow HTTP traffic"
-       v. expand "Management, disks, networking, SSH keys"
-       vi. in the "startup script" box enter    
+       v. click Container checkbox and enter your container: yourdockerhubid/webserver
+       vi. expand "Advanced Container Options"
+       vi. in the "Command" box enter    
 ```    
-#!/bin/bash
-docker rm ws
 docker run -d --name ws -p80:80 yourdockerhubid/webserver
 ```
 8. Click "Create" button at the bottom
@@ -68,9 +67,8 @@ docker run -d --name ws -p80:80 yourdockerhubid/webserver
        
          i. enter the external ip adress (for the machine you created) in your browser (you should get your name)
          ii. If that does not work connect to the machine
-         iii. Open shell
-         iv. type gcloud compute ssh "your instance name"
-         v. once connected to your instance type 'docker ps': your container should be running
+         iii. Open shell (via gcp console)
+         iv. once connected to your instance type 'docker ps': your container should be running
 10. Enter ip adress of the machine (just the ip, nothing else) as the
     last line of your netid.md file in the cs340-21/students repo and create a pull request
          
