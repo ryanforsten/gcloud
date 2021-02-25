@@ -23,6 +23,17 @@ You can only request ONE code per unique email address.
 
 GCP requires projects to be linked to a billing account. If you plan to use GCP for your project, you might want to redeem all credits on a single account and add other members of the same team to that project. 
 
+Once you get coupon go to:
+https://console.cloud.google.com/education
+
+Create a project, e.g.cs340, select it, 
+enter coupon code!
+
+Go to compute engine VM Instances
+
+Now you should be able to create an instance!!!!
+
+
 # Assignment 1: Deploying a webserver 
 
 The purpose of the assignment is to familiarize you with the automatic build, containers, and cloud computing
