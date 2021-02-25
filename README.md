@@ -27,7 +27,7 @@ GCP requires projects to be linked to a billing account. If you plan to use GCP 
 
 The purpose of the assignment is to familiarize you with the automatic build, containers, and cloud computing
 
-## The due date is Feb 15.
+## The due date is Mar 11.
 
 1. Create repo yougithubid/webserver
 2. Add Dockerfile, for example as the one in this repo
