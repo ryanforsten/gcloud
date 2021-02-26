@@ -56,11 +56,11 @@ The purpose of the assignment is to familiarize you with the automatic build, co
        ii. Next to memory click customize and reduce 1G
        iii. Mark checkmark "Deploy a container image to this VM" and enter image 'yourdockerhubid/webserver'
        iv. Mark checkmark "Allow HTTP traffic"
-       v. click Container checkbox and enter your container: yourdockerhubid/webserver
+       v. click Deploy Container checkbox and enter your container image: yourdockerhubid/webserver
        vi. expand "Advanced Container Options"
        vi. in the "Command" box enter    
 ```    
-docker run -d --name ws -p80:80 yourdockerhubid/webserver
+[ "--name ws", "-p80:80" ]
 ```
 8. Click "Create" button at the bottom
 9. Check if the webserver works
