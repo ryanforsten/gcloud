@@ -46,7 +46,7 @@ The purpose of the assignment is to familiarize you with the automatic build, co
 4. Create automatic build
 
        i. on hub.docker.com create id for yourself (if you have not done so before)
-       ii. create automated build (pull out from the top menu)
+       ii. create automated build (see docker.md for further directions)
        iii. connect to github repo you have just created
 5. make a change on the github repo (to trigger build)
 6. Verify that the build succeeded https://hub.docker.com/r/yourdockerhubid/webserver/builds/
@@ -57,11 +57,7 @@ The purpose of the assignment is to familiarize you with the automatic build, co
        iii. Mark checkmark "Deploy a container image to this VM" and enter image 'yourdockerhubid/webserver'
        iv. Mark checkmark "Allow HTTP traffic"
        v. click Deploy Container checkbox and enter your container image: yourdockerhubid/webserver
-       vi. expand "Advanced Container Options"
-       vi. in the "Command" box enter    
-```    
-[ "--name ws", "-p80:80" ]
-```
+       
 8. Click "Create" button at the bottom
 9. Check if the webserver works
        
