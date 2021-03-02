@@ -58,9 +58,7 @@ The purpose of the assignment is to familiarize you with the automatic build, co
        iv. Mark checkmark "Allow HTTP traffic"
        v. click Deploy Container checkbox and enter your container image: yourdockerhubid/webserver
        vi. expand "Advanced Container Options"
-       vii. in the "Command" box enter    
-```    
-[ "--name ws", "-p80:80" ]
+       vii. in the "Command" box enter:    [ "--name ws", "-p80:80" ]
 ```
        
 8. Click "Create" button at the bottom
